@@ -1,0 +1,22 @@
+Inicio
+x, d[-n,n]
+y, d[-n,n]
+<< "Ingrese el valor de X: "
+>> x
+<< "Ingrese el valor de Y: "
+>> y
+
+Si x >= 0 and y >= 0 entonces
+	<< "Valores pertenecientes al cuadrante 1."
+De lo contrario
+	Si x < 0 and y >= 0 entonces
+		<< "Valores pertenecientes al cuadrante 2."
+	De lo contrario
+		Si x < 0 and y < 0 entonces
+			<< "Valores pertenecientes al cuadrante 3."
+		De lo contrario
+			<< "Valores pertenecientes al cuadrante 4."
+		Fin Si
+	Fin Si
+Fin Si				
+Fin

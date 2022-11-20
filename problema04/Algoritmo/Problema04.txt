@@ -1,0 +1,8 @@
+Inicio
+Ingrese el primer número.
+Ingrese el segundo número.
+Ingrese el tercer número.
+Se calcula cual de los tres números es el mayor.
+Si algunos de los números ingresados se repiten, se presenta un error en pantalla.
+Se presenta en pantalla el número mayor.
+Fin

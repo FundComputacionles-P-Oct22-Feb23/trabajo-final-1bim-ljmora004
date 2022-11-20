@@ -1,0 +1,9 @@
+Inicio
+Ingrese el valor de X.
+Ingrese el valor de Y.
+Calcular si el valor de "X" es mayor o igual a 0 y si el valor de "Y" es mayor o igual a 0. En ese caso los valores pertenecen al cuadrante 1.
+Calcular si el valor de "X" es menor a 0 y si el valor de "Y" es mayor o igual a 0. En ese caso los valores pertenecen al cuadrante 2.
+Calcular si el valor de "X" es menor a 0 y si el valor de "Y" es menor a 0. En ese caso los valores pertenecen al cuadrante 3.
+Calcular si el valor de "X" es mayor o igual a 0 y si el valor de "Y" es menor a 0. En ese caso los valores pertenecen al cuadrante 4.
+Presentar en pantalla el tipo de cuadrante al que pertenecen los datos ingresados.
+Fin

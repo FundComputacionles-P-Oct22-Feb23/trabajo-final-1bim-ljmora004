@@ -1,0 +1,26 @@
+Inicio
+numeroUno, d[-n,n]
+numeroDos, d[-n,n]
+numeroTres, d[-n,n]
+<< "Ingrese el primer número: "
+>> numeroUno
+<< "Ingrese el segundo número: "
+>> numeroDos
+<< "Ingrese el tercer número: "
+>> numeroTres
+
+Si numeroUno == numeroDos or numeroDos == numeroTres entonces
+	<< "Error, los números no pueden repetirse.\n
+	Intentelo de nuevo."
+De lo contrario
+	Si numeroUno > numeroDos and numeroUno > numeroTres entonces
+		<<	"El número mayor es el número: " + numeroUno
+	De lo contrario
+		Si numeroDos > numeroUno and numeroDos > numeroTres entonces
+			<< "El número mayor es el número: " + numeroDos
+		De lo contrario
+			<< "El número mayor es el número: " + numeroTres
+		Fin Si
+	Fin Si
+Fin Si					
+Fin
