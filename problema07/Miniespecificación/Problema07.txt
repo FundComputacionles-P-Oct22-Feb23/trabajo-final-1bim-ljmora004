@@ -1,0 +1,20 @@
+Inicio
+numero, d[-n,n]
+contador, i[0,n]
+contador <-- 2
+resultado, d[0,n]
+resultado <-- 0
+
+<< "Ingrese hasta que número desea sumar: "
+>> numero
+
+Si numero >= 2 entonces
+	Mientras contador <= numero entonces
+		resultado <-- contador + 2
+		contador <-- contador + 2
+	Fin Mientras
+De lo contrario
+	<< "Error, el número ingresado es menor a 2.\nIntentelo de nuevo."	
+Fin Si
+<< "La suma de los números pares hasta el " + numero + " es: " + resultado
+Fin

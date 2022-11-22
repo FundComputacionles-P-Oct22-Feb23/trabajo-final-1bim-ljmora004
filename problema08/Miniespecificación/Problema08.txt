@@ -1,0 +1,19 @@
+Inicio
+medida, d[0,n]
+metros, i[0,n]
+metros <-- 1
+pulgadas, d[0,n]
+pulgadas <-- 0
+pies, d[0,n]
+pies <-- 0
+yardas, d[0,n]
+yardas <-- 0
+
+<< ""\nMetros\tYardas\tPies\tPulgadas\n""
+Mientras metros <= medida entonces
+	pulgadas <-- (metros * 100)/2.54
+	pies <-- (metros * 39.37)/12
+	yardas <-- (metros * 3.28)/3
+	<< metros + "\t" + yardas + "\t" + pies + "\t" + pulgadas + "\n"
+	metros <-- metros + 1
+Fin
