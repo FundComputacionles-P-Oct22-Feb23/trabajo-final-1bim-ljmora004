@@ -1,0 +1,12 @@
+Inicio
+Guardamos en una variable de nombre "contador" el valor de 0.
+Guardamos en una variable de nombre "numero" el valor de 2.
+Guadamos un valor vacio en una variable de nombre "cadenaFinal".
+
+Inciamos el ciclo repetitivo el cual se ejecutará mientras la variable "contador" sea menor o igual a 100.
+Guardamos en la variable "cadenaFinal" el valor "1" seguido de un "/" seguido del valor que tenga la variable "numero" y finalmente un "+".
+Al valor de la variable "contador" se le suma 1.
+A la variable "numero" se le suma 1.
+Se termina el ciclo.
+Se imprime en pantalla el valor "1" seguido de un "+" y seguido de la variable "cadenaFinal".
+Fin

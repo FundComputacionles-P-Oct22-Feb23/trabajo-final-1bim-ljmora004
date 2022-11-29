@@ -1,0 +1,23 @@
+Inicio 
+Guardamos en una variable con nombre "cantidadTraje"
+Guardamos en una variable con nombre "precioTraje"
+Guardamos en una variable con nombre "descuento"
+Guardamos en una variable con nombre "subtotal"
+Guardamos en una variable con nombre "valorTotal"
+
+Si cantidadTraje es igual a 1 entonces 
+ La variable descuento es igual al precio del traje multiplicado por 20 y dividido para 100
+De lo contrario 
+Si la cantidadTraje es igual a 2 entonces 
+  La variable descuento es igual al precio del traje multiplicado por 25 y dividido para 100
+De lo contrario 
+Si la cantidadTraje es igual a 3 entonces 
+  La variable descuento es igual al precio del traje multiplicado por 40 y dividido para 100
+De lo contrario 
+ La variable descuento es igual al precio del traje multiplicado por 50 y dividido para 100
+
+El valorTotal del traje aplicado con el descuento es igual al precio del traje menos el
+descuento que obtenemos 
+Se imprime en pantalla el subtotal, el descuento y el valor total a pagar
+
+Fin

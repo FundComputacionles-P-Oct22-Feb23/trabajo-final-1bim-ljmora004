@@ -1,0 +1,21 @@
+Inicio 
+datoNumero, d[0,n]
+suma, d[0,n] <-- 0
+contador, i[0,n] <-- 0 
+media, d[0,n] 
+bandera, l <-- true
+salir, x(10)[ {a-z}, {A-Z}, {BS}]
+
+Mientras bandera == true entonces
+    << "Ingrese los numeros que desea calcular: "
+    >> datoNumero
+    suma <-- suma + datoNumero
+    contador <-- contador + 1
+    << "Si desea terminar el programa escriba (si)"
+    >> salir
+    Si salir == "si" entonces
+        bandera <-- false
+    Fin Si    
+Fin Mientras
+media = suma/contador
+<< "La media de los datos es: " + media

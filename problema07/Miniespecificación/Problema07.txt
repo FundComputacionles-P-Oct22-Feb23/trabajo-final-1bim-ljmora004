@@ -8,13 +8,16 @@ resultado <-- 0
 << "Ingrese hasta que número desea sumar: "
 >> numero
 
-Si numero >= 2 entonces
-	Mientras contador <= numero entonces
-		resultado <-- contador + 2
-		contador <-- contador + 2
-	Fin Mientras
+Si numero MOD 2 == 0 entonces
+	Si numero >= 2 entonces
+		Mientras contador <= numero entonces
+			resultado <-- contador + 2
+			contador <-- contador + 2
+		Fin Mientras
+	De lo contrario
+		<< "Error, el número ingresado es menor a 2.\nIntentelo de nuevo."	
+	Fin Si
 De lo contrario
-	<< "Error, el número ingresado es menor a 2.\nIntentelo de nuevo."	
-Fin Si
+	<< "Error, el número ingresado no es par."	
 << "La suma de los números pares hasta el " + numero + " es: " + resultado
 Fin

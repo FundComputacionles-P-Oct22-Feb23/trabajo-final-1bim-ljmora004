@@ -1,0 +1,9 @@
+Inicio
+Guardamos un valor en la variable "datoNumero"
+
+Iniciamos un ciclo repetitivo donde se pide al usuario que ingrese los datos que desea calcular
+Se pide al usuario que si desea salir del ciclo repetitivo escriba "si" 
+Ya que el usuario desee salir del ciclo se termina el ingreso de datos y por ende el ciclo repetitivo
+Se calcula la media sumando los datos ingresados por el usuario y se divide para el numero de sumandos ingresados.
+Se muestra en pantalla la media calculada.
+Fin

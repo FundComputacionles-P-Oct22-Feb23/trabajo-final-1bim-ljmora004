@@ -1,0 +1,33 @@
+Inicio
+cantidadTraje, i[n,n]
+precioTraje, d[n,n]
+descuento, d[n,n]
+valorTotal, d[n,n]
+cadenaFinal, x(100)[{1-9}, {a-z}, {A-Z}, {BS}]
+
+<< "Ingrese el precio del traje: "
+>> precioTraje
+>> "Ingrese la cantidad de trajes:"
+<< CantidadTraje
+
+Si cantidadTraje == 1 entonces 
+	descuento <-- (precioTraje * 20)/100
+De lo contrario
+	Si cantidadTraje == 2 entonces 
+		descuento <-- (precioTraje * 25)/100
+	De lo contrario
+		Si cantidadTraje == 3 entonces 
+			descuento <-- (precioTraje * 40)/100
+		De lo contrario
+			descuento <-- (precioTraje * 50)/100
+		FinSi
+	FinSi
+Fin Si
+
+valorTotal <--preioTraje - descuento
+cadenaFinal <-- cadenaFinal + "El subtotal del traje es de:" + " " + precioTraje + "\n"
+                + "El descuento que se aplica es de:" + " " + descuento + "\n"
+                + "El valor final a pagar es de:" + valorTotal 
+
+<< cadenaFinal
+Fin

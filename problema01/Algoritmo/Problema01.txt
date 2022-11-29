@@ -1,0 +1,22 @@
+Inicio
+Guardamos en una variable de nombre "angulo1" 
+Guardamos en una variable de nombre "angulo2" 
+Guardamos en una variable de nombre "angulo3" 
+Guardamos en una variable de nombre "tipoTriangulo"
+
+Pedimos al usuario que ingrese el tamaño del primer angulo del triangulo
+Pedimos al usuario que ingrese el tamaño del segundo angulo del triangulo
+Pedimos al usuario que ingrese el tamaño del tercer angulo del triangulo
+
+
+Si angulo1, angulo2 o angulo3 es igual a 90 entonces 
+La variable tipoTriangulo es igual a  "Es un triangulo rectangulo"
+De lo contrario 
+Si angulo1, angulo2 y angulo3 es menor a 90 entonces 
+La variable tipoTriangulo es igual a "Es un triangulo acutangulo"
+De lo contratio
+Si angulo1, angulo2 o angulo3 es mayor a 90  y menor a 180 entonces
+La variable tipoTriangulo es igual a "Es un triangulo obtusángulo"
+
+Se imprime en pantalla el tipo de triangulo
+Fin

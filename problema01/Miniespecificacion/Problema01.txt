@@ -1,0 +1,29 @@
+Inicio
+angulo1, d[0,n]
+angulo2, d[0,n]
+angulo3, d[0,n]
+tipoTriangulo, x(20)[{a-z}, {A-Z}, {BS}] <-- ""
+
+<< "Ingrese el tamaño del primer angulo"
+>> angulo1
+<< "Ingrese el tamaño del segundo angulo"
+>> angulo2
+<< "Ingrese el tamaño del tercer angulo"
+>> angulo3
+
+Si angulo1 == 90 or angulo2 == 90 or angulo3 == 90 entonces 
+  tipoTriangulo <-- tipoTriangulo + "Es un triangulo rectangulo" 
+De lo contrario 
+    Si angulo1 < 90 and angulo2 < 90 and angulo3 < 90 entonces
+        tipoTriangulo <-- tipoTriangulo + "Es un triangulo acutangulo"
+    De lo contrario
+        Si angulo1 > 90 and angulo1 < 180 or angulo2 > 90 and angulo2 < 180 or angulo3 > 90 and angulo3 < 180 entonces
+           tipoTriangulo <-- tipoTriangulo + "El angulo es Obstusangulo"
+
+		FinSi
+	FinSi
+FinSi
+
+<<tipoTriangulo
+
+Fin
