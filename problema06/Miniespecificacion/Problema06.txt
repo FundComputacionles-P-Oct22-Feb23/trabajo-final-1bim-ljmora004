@@ -3,7 +3,7 @@ numero , i[0,n] <-- 2
 contador, i[0,n] <-- 1
 cadenaFinal, x(100)[{1-9}, {a-z}, {A-Z}, {BS}] <-- " "
 
-Mientras contador < 100 entonces
+Mientras contador <= 100 entonces
     cadenaFinal <-- cadenaFinal + "1" + "/" + numero + " + "
     contador <-- contador + 1
     numero <-- numero + 1
